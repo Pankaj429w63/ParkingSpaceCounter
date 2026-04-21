@@ -1,0 +1,31 @@
+# ============================================================
+#  Smart Parking System — requirements.txt
+#  Install: pip install -r requirements.txt
+# ============================================================
+
+# ── Core Computer Vision ─────────────────────────────────────
+opencv-python>=4.8.0
+opencv-python-headless>=4.8.0   # for servers / Streamlit cloud
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ── Deep Learning ────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.2.0               # RT-DETRv2 + YOLO support
+
+# ── Dashboard ────────────────────────────────────────────────
+streamlit>=1.35.0
+matplotlib>=3.8.0
+pandas>=2.1.0
+plotly>=5.18.0                   # optional interactive charts
+
+# ── Data & Utils ─────────────────────────────────────────────
+PyYAML>=6.0.1
+scikit-learn>=1.4.0              # metrics, confusion matrix
+tqdm>=4.66.0                     # progress bars
+requests>=2.31.0                 # dataset download helpers
+
+# ── Notebook (optional) ──────────────────────────────────────
+ipykernel>=6.25.0
+jupyter>=1.0.0

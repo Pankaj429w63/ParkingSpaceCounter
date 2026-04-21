@@ -1,0 +1,53 @@
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ─── Environments ─────────────────────────────────────────────
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# ─── VS Code ─────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Data (large files) ──────────────────────────────────────
+data/raw/
+data/train/
+data/val/
+data/test/
+data/processed/_dataset_abs.yaml
+
+# ─── Models (large .pt files — use Git LFS or store separately) ─
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# ─── Training Run Output ─────────────────────────────────────
+SmartParking_RTDETRv2/
+runs/
+
+# ─── Output Predictions ──────────────────────────────────────
+outputs/predictions/
+outputs/graphs/*.png
+
+# ─── OS Files ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+*.tmp
