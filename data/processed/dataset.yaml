@@ -1,0 +1,8 @@
+names:
+  0: FREE
+  1: OCCUPIED
+nc: 2
+path: c:\Users\PANKAJ YADAV\OneDrive\Desktop\ParkingSpaceCounter\data
+test: test/images
+train: train/images
+val: val/images
