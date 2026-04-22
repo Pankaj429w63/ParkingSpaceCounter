@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🅿️ Smart Parking System — AI-Powered Parking Space Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
@@ -336,3 +337,7 @@ MIT License — free to use for academic and personal projects.
 ---
 
 *Built with ❤️ using OpenCV, RT-DETRv2, and Streamlit — 2026*
+=======
+# ParkingSpaceCounter
+ParkingSpaceCounter is an AI-based parking management system using the CNRPark-EXT dataset to detect empty and occupied parking slots. It uses Python, OpenCV, and machine learning for preprocessing, training, and prediction. A dashboard shows real-time parking availability, making it a smart and scalable industry-ready solution.
+>>>>>>> 9054e312236d0e4278ac9ac996f6e295b947e358
